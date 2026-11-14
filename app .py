@@ -758,24 +758,42 @@ with tab4:
     col_mod1, col_mod2, col_mod3 = st.columns(3)
 
     with col_mod1:
-        st.info(f"### Modul 1: Skrining Diabetes & Metabolik\n"
-                f"**Prioritas Utama (~{pct_1:.1f}% Indeks)**\n\n"
-                f"* **Variabel Kunci:** `Preexisting Diabetes`, `Gestational Diabetes`, `BS`.\n"
-                f"* **Target Peserta:** Bidan Desa & Ahli Gizi Puskesmas.\n"
-                f"* **Materi Inti:** Skrining TTGO, manajemen insulin dasar, konseling diet rendah glikemik.")
+    st.markdown(f"""
+    <div style="background-color:#DDEBF7; padding:16px; border-radius:10px; min-height:360px;">
+    <h3 style="color:#1F4E79;">Modul 1: Skrining Diabetes & Metabolik</h3>
+    <p><b>Prioritas Utama (~{pct_1:.1f}% Indeks)</b></p>
+    <ul>
+    <li><b>Variabel Kunci:</b> Preexisting Diabetes, Gestational Diabetes, BS.</li>
+    <li><b>Target Peserta:</b> Bidan Desa & Ahli Gizi Puskesmas.</li>
+    <li><b>Materi Inti:</b> Skrining TTGO, manajemen insulin dasar, konseling diet rendah glikemik.</li>
+    </ul>
+    </div>
+    """, unsafe_allow_html=True)
 
     with col_mod2:
-        st.info(f"### Modul 2: Vital Sign & Kesehatan Mental\n\n"
-                f"**Prioritas Kedua (~{pct_3:.1f}% Indeks)**\n\n"
-                f"* **Variabel Kunci:** Heart Rate, Mental Health, Systolic BP, Diastolic.\n"
-                f"* **Target Peserta:** Bidan Desa & Kader Posyandu.\n"
-                f"* **Materi Inti:** Deteksi dini preeklampsia, pemantauan tanda vital, skrining depresi perinatal.")
+    st.markdown(f"""
+    <div style="background-color:#E2EFDA; padding:16px; border-radius:10px; min-height:360px;">
+    <h3 style="color:#375623;">Modul 2: Vital Sign & Kesehatan Mental</h3>
+    <p><b>Prioritas Kedua (~{pct_3:.1f}% Indeks)</b></p>
+    <ul>
+    <li><b>Variabel Kunci:</b> Heart Rate, Mental Health, Systolic BP, Diastolic.</li>
+    <li><b>Target Peserta:</b> Bidan Desa & Kader Posyandu.</li>
+    <li><b>Materi Inti:</b> Deteksi dini preeklampsia, pemantauan tanda vital, skrining depresi perinatal.</li>
+    </ul>
+    </div>
+    """, unsafe_allow_html=True)
     with col_mod3:
-        st.info(f"### Modul 3: Manajemen Obesitas & BMI\n\n"
-                f"**Prioritas Ketiga (~{pct_2:.1f}% Indeks)**\n\n"
-                f"* **Variabel Kunci:** BMI.\n"
-                f"* **Target Peserta:** Ahli Gizi & Bidan Desa.\n"
-                f"* **Materi Inti:** Konseling gizi seimbang, manajemen berat badan kehamilan, pencegahan obesitas.")
+    st.markdown(f"""
+    <div style="background-color:#FCE4D6; padding:16px; border-radius:10px; min-height:360px;">
+    <h3 style="color:#7B4A2B;">Modul 3: Manajemen Obesitas & BMI</h3>
+    <p><b>Prioritas Ketiga (~{pct_2:.1f}% Indeks)</b></p>
+    <ul>
+    <li><b>Variabel Kunci:</b> BMI.</li>
+    <li><b>Target Peserta:</b> Ahli Gizi & Bidan Desa.</li>
+    <li><b>Materi Inti:</b> Konseling gizi seimbang, manajemen berat badan kehamilan, pencegahan obesitas.</li>
+    </ul>
+    </div>
+    """, unsafe_allow_html=True)
         
     # Tabel Indeks Lengkap
     st.markdown("---")
