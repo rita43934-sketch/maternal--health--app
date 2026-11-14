@@ -765,18 +765,17 @@ with tab4:
                 f"* **Materi Inti:** Skrining TTGO, manajemen insulin dasar, konseling diet rendah glikemik.")
 
     with col_mod2:
-        st.info(f"### Modul 2: Vital Sign & Kesehatan Mental\n"
-            f"*Prioritas (~{pct_2:.1f}% Indeks)*\n\n"
-            f"*Variabel Kunci:* Heart Rate, Mental Health, Systolic BP, Diastolic\n"
-            f"*Target Peserta:* Bidan Desa & Kader Posyandu.\n"
-            f"*Materi Inti:* Deteksi dini preeklampsia, pemantauan tanda vital, skrining depresi perinatal.")
+        st.info(f"### Modul 2: Manajemen Obesitas & BMI\n"
+        f"*Prioritas (~{pct_3:.1f}% Indeks)*\n"
+        f"*Variabel Kunci:* BMI\n"
+        f"*Target Peserta:* Ahli Gizi & Bidan Desa.\n"
+        f"*Materi Inti:* Konseling gizi seimbang, manajemen berat badan kehamilan, penceg..."
     with col_mod3:
-        st.info(f"### Modul 3: Manajemen Obesitas & BMI\n"
-            f"*Prioritas (~{pct_3:.1f}% Indeks)*\n\n"
-            f"*Variabel Kunci:* BMI\n"
-            f"*Target Peserta:* Ahli Gizi & Bidan Desa.\n"
-            f"*Materi Inti:* Konseling gizi seimbang, manajemen berat badan kehamilan, pencegahan obesitas.")
-
+        st.info(f"### Modul 3: Vital Sign & Kesehatan Mental\n"
+        f"*Prioritas (~{pct_2:.1f}% Indeks)*\n"
+        f"*Variabel Kunci:* Heart Rate, Mental Health, Systolic BP, Diastolic\n"
+        f"*Target Peserta:* Bidan Desa & Kader Posyandu.\n"
+        f"*Materi Inti:* Deteksi dini preeklampsia, pemantauan tanda vital, skrining dep..."
     # Tabel Indeks Lengkap
     st.markdown("---")
     st.subheader("Tabel Lengkap Indeks Kebutuhan Pelatihan")
