@@ -767,21 +767,22 @@ with tab4:
 
 
     with col_mod2:
-        st.markdown(f""" <div style="background-color:#FCE4D6; padding:16px; border-radius:10px; min-height:360px;">
-        <h3 style="color:#7B4A2B;">Modul 2: Manajemen Obesitas & BMI Kehamilan</h3>
-        <p> <b>Prioritas Kedua (~{pct_2:.1f}% Indeks)</b></p> <ul>
-        <li><b>Variabel Kunci:</b> BMI.</li>
-        <li> <b>Target Peserta:</b> Petugas KIA & Kader Kesehatan Posyandu.</li>
-        <li> <b>Materi Inti:</b> Pemantauan Weight Gain Chart, edukasi nutrisi, deteksi risiko sindrom metabolik.</li>
-        </ul> </div> """, unsafe_allow_html=True)
-    with col_mod3:
         st.markdown(f""" <div style="background-color:#E2EFDA; padding:16px; border-radius:10px; min-height:360px;">
-        <h3 style="color:#375623;">Modul 3: Vital Sign & Kesehatan Mental</h3>
-        <p><b>Prioritas Ketiga (~{pct_3:.1f}% Indeks)</b></p>
+        <h3 style="color:#375623;">Modul 2: Vital Sign & Kesehatan Mental</h3>
+        <p><b>Prioritas Kedua (~{pct_3:.1f}% Indeks)</b></p>
         <ul> <li><b>Variabel Kunci:</b> Heart Rate, Mental Health, Systolic/Diastolic BP.</li>
         <li> <b>Target Peserta:</b> Dokter Puskesmas & Bidan Koordinator.</li>
         <li><b>Materi Inti:</b> Deteksi dini aritmia maternal, penanganan preeklampsia awal, instrumen EPDS.</li>
-        </ul> </div>  """, unsafe_allow_html=True)
+        </ul> </div> """, unsafe_allow_html=True)
+
+    with col_mod3:
+        st.markdown(f""" <div style="background-color:#FCE4D6; padding:16px; border-radius:10px; min-height:360px;">
+        <h3 style="color:#7B4A2B;">Modul 3: Manajemen Obesitas & BMI Kehamilan</h3>
+        <p><b>Prioritas Ketiga (~{pct_2:.1f}% Indeks)</b></p>
+        <ul> <li><b>Variabel Kunci:</b> BMI.</li>
+        <li><b>Target Peserta:</b> Petugas KIA & Kader Kesehatan Posyandu.</li>
+        <li><b>Materi Inti:</b> Pemantauan Weight Gain Chart, edukasi nutrisi, deteksi risiko sindrom metabolik.</li>
+        </ul> </div> """, unsafe_allow_html=True)
         
     # Tabel Indeks Lengkap
     st.markdown("---")
